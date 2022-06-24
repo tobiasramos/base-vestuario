@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Karla:wght@400;700&display=swap');
+
+body {
+    width: 1350px;
+    height: 50px;
+    background-size: contain;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Karla', sans-serif;
+}
+
+.container {
+    display: flex;
+    background-color: hsl(0, 100%, 98%);
+}
+
+.text {
+    margin-top: 60px;
+    margin-left: 200px;
+    margin-right: 181px;
+    width: 400px;
+}
+
+.text .icon {
+    margin-bottom: 60px;
+}
+
+
+.title {
+    margin: 10px;
+}
+
+.title .sub-1,
+.sub-2 {
+    font-size: 60px;
+}
+
+.title .sub-1 {
+    color: hsl(0, 80%, 86%);
+}
+
+.title .sub-2 {
+    color: hsl(0, 6%, 24%);
+}
+
+p {
+    color: hsl(0, 74%, 74%);
+}
+
+.form {
+    margin-top: 30px;
+}
+
+.form-control input {
+    display: block;
+    border: solid 1px darkgrey;
+    border-radius: 20px;
+    padding: 10px;
+    width: 320px;
+    height: 15px;
+}
+
+.icon-error {
+    visibility: hidden;
+    margin-top: -30px;
+    margin-left: 255px;
+    position: absolute;
+}
+
+.form-control small {
+    visibility: hidden;
+    position: fixed;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+.form-control.error input {
+    border-color: #e74c3c;
+}
+
+.form-control.error .icon-error {
+    visibility: visible;
+    color: #e74c3c;
+}
+
+.form-control.error small {
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.button {
+    position: absolute;
+    margin-top: -38px;
+    margin-left: 285px;
+    background-color: hsl(0, 74%, 74%);
+    width: 75px;
+    height: 38px;
+    border: none;
+    border-radius: 30px;
+}
+.button:hover{
+    background-color: hsl(0, 80%, 86%);
+    transition: 2s;
+}
+
+.image {
+    margin-left: 55px;
+    width: 650px;
+    height: 656px;
+    background-image: url(../img/hero-desktop.jpg);
+    background-repeat: no-repeat;
+}
+
+
